@@ -1,0 +1,89 @@
+.cart_history{
+	-webkit-box-shadow: 3px 3px 4px -5px rgba(0,0,0,1);
+-moz-box-shadow: 3px 3px 4px -5px rgba(0,0,0,1);
+box-shadow: 3px 3px 4px -5px rgba(0,0,0,1);
+}
+.cart_item{
+	height: 50px;
+}
+.cart_item_name{
+	font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    padding:0;
+    margin-right: 300px;
+    width: 300px;
+    position: absolute;
+}
+.cart_item_quantity{
+	padding:0;
+	margin-left:  385px;
+
+}
+
+
+.cart_item_total_price{
+font-size: 14px;
+    color: #333;
+    padding:0;
+    margin-left: 15px;
+    
+
+}
+
+.cart_item_remove_btn{
+	padding: 1px;
+	font-size: 10px;
+	border:0px;
+	margin-top: 2px;
+
+	position: absolute;
+}
+.item_quantity{
+	padding: 3px;
+	height: 20px;
+	width: 30px;
+}
+
+.cart_item_quantity div input {
+	padding: 3px;
+	height: 20px;
+	width: 30px;
+}
+#SubTotal{
+	font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 15px;
+}
+
+
+.glyphicon-star{
+	color: #4CAF50;
+}
+
+.unchecked{
+	color : #4caf505e;
+}
+
+.unchecked:hover {
+	color : #4CAF50;
+}
+
+.item_rattings{
+	display: block;
+	margin-bottom: -5px;
+}
+
+
+
+/** rating stars  html 
+<div class="item_rattings">	<!--div with item_ratings -->
+					<span class="glyphicon glyphicon-star checked" style="font-size: 20px;"></span>
+					<span class="glyphicon glyphicon-star checked" style="font-size: 20px;"></span>
+					<span class="glyphicon glyphicon-star checked" style="font-size: 20px;"></span>
+					<span class="glyphicon glyphicon-star checked" style="font-size: 20px;"></span>
+					<span class="glyphicon glyphicon-star checked" style="font-size: 20px;"></span>
+					<span class="glyphicon glyphicon-star checked" style="font-size: 20px;"></span>
+				</div>
+*/

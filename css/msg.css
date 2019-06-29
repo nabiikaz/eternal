@@ -1,0 +1,140 @@
+body{
+	background-color: #fff;
+}
+.conversation_box{
+	border:0px solid red;
+	width: 280px;
+	padding: 1px;
+	position: fixed;
+	top: 94.5%;
+	
+	left: 75%;
+	z-index: 3;
+	border-top-left-radius:  5px;
+	border-top-right-radius:  5px;
+	background-color: white;
+
+
+
+/*box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.75);*/
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+
+}
+
+.conversation_box_head{
+	/*border-bottom:  1px solid grey;*/
+	font-size: 13px;
+	color: #191919;
+	background-color: #f6f7f9;
+	padding-top: 7px;
+	padding-left: 10px;
+
+	border-top-left-radius:  5px;
+	border-top-right-radius:  5px;
+	height: 30px;
+	margin-top: -1px;
+	width: 101.1%;
+	margin-left: -0.5%;
+	
+
+
+
+		
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .20);
+
+
+}
+
+
+.conversation_box_head .glyphicon-chevron-up{
+	position:absolute;
+	color: grey;
+	margin-top: 6px;
+	margin-left: 10px;
+	opacity: 0.7;
+
+}
+
+.conversation_box_head .glyphicon-chevron-down{
+	position:absolute;
+	color: grey;
+	margin-top: 6px;
+	margin-left: 10px;
+	opacity: 0.7;
+}
+
+.conversation_box_body{
+	/*border: 1px solid #333;*/
+	height: 0px;
+	/*background-color: white;*/
+	margin-top: 1px;
+	overflow-y: auto;
+	
+
+
+}
+
+.conversation_box_footer{
+	/*border-left: 1px solid #333;
+	border-right:  1px solid #333;
+	border-bottom:   1px solid #333;*/
+	border-top: 1px solid rgba(29, 49, 91, .1);
+	height: 0px;
+	padding: 3px;
+	
+}
+
+.conversation_box_footer textarea {
+	width: 100%;height: 100%; resize: none;overflow-y:hidden;border: 0px;
+	font-size: 13px;
+	
+
+}
+
+.conversation_box_footer span {
+	position: absolute;
+	margin-top: -35px;
+	margin-left: 1px;
+	opacity: 0.5;
+	font-size: 13px;
+	
+}
+.collapsee{
+	height: 0px;
+	background-color: white;
+	visibility: hidden;
+	
+}
+
+
+
+.your_msg {
+	background-color: #4080ff;
+	color:#fff;
+	padding: 5px;
+	
+	border-radius: 10px;
+	float: right;
+	display: flex;
+
+}
+
+.admin_msg{
+	
+	background-color: #8080802b;
+	color: #333;
+
+	padding: 5px;
+	
+	border-radius: 10px;
+	float: left;
+	display: flex;
+
+	
+
+	
+}
+
+.conversation_box_body .col-xs-12{
+	margin-top: 10px;
+}

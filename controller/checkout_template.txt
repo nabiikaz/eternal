@@ -1,0 +1,51 @@
+<ul class="list-group purchase_order" id="purchase_id">
+                  <li class="list-group-item checkout_date payment_confirmed">
+                    <span class="col-lg-6">CheckOut in : 28 / 07 / 2018</span>
+                    <span class="col-lg-6">Payment Confirmed in : 28 / 07 / 2018</span>
+                    
+                    
+                  </li>
+                  <ul class="list-group purchase_order ">
+                      <li class="list-group-item purchase_order_item">
+                        <span class="col-lg-3 purchase_order_item_name">Item Name</span>
+                        <div class="col-lg-6 ">
+                          <select class="col-lg-3 purchase_order_item_size">
+                              <option value="NOSIZE">NOSIZE</option>
+                              <option value="XS">XS</option>
+                              <option value="S">S</option>
+                              <option value="M">M</option>
+                              <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                                <option value="XXXL">XXXL</option>
+                          </select>
+
+
+                          
+                              <input type="number" class="col-lg-3 purchase_order_item_quantity" placeholder="0" id="NOSIZE" value=""> 
+                              <input type="number" class="col-lg-3 purchase_order_item_quantity" placeholder="0" id="XS" value=""> 
+                              <input type="number" class="col-lg-3 purchase_order_item_quantity" placeholder="0" id="S" value=""> 
+                              <input type="number" class="col-lg-3 purchase_order_item_quantity" placeholder="0" id="M" value=""> 
+                              <input type="number" class="col-lg-3 purchase_order_item_quantity" placeholder="0" id="L" value=""> 
+                              <input type="number" class="col-lg-3 purchase_order_item_quantity" placeholder="0" id="XL" value=""> 
+                              <input type="number" class="col-lg-3 purchase_order_item_quantity" placeholder="0" id="XXL" value=""> 
+                              <input type="number" class="col-lg-3 purchase_order_item_quantity" placeholder="0" id="XXXL" value=""> 
+                             
+                          
+                        </div>
+                       
+                        <span class="col-lg-3 purchase_order_item_price"><i><b>00.00</b> DA </i>  </span>
+                        
+                      </li>
+                      
+                      <li class="list-group-item Confirm_checkout">
+                          <div class="col-lg-6">
+                              <div class=" Confirm_checkout_pdf text-center">Confirm CheckOut.</div>
+                            </div>
+                          <div class="col-lg-6">
+                            <div class=" download_pdf text-center">Download Pdf Version Of this purchase order</div>
+                          </div>
+                      </li>
+                      
+                  </ul>
+              </ul>

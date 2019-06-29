@@ -1,0 +1,169 @@
+.Login_display{
+    height: 330px;
+    width: 400px;
+    -webkit-box-shadow: 1px 0px 27px -9px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 0px 27px -9px rgba(0,0,0,1);
+    box-shadow: 1px 0px 27px -9px rgba(0,0,0,1);
+
+display: none;
+
+        
+}
+
+
+.authentification_title{
+border-top-left-radius: 10px; 
+border-top-right-radius: 10px;
+
+}
+
+.Registration_display{
+    
+    height: 450px;
+    width: 400px;
+    -webkit-box-shadow: 1px 0px 27px -9px rgba(0,0,0,1);
+-moz-box-shadow: 1px 0px 27px -9px rgba(0,0,0,1);
+box-shadow: 1px 0px 27px -9px rgba(0,0,0,1);
+
+
+display: none;
+
+
+
+    
+}
+
+.forgot_password_display{
+    height: 250px;
+    width: 400px;
+    -webkit-box-shadow: 1px 0px 27px -9px rgba(0,0,0,1);
+-moz-box-shadow: 1px 0px 27px -9px rgba(0,0,0,1);
+box-shadow: 1px 0px 27px -9px rgba(0,0,0,1);
+
+
+display: none;
+
+}
+
+.actiontype{
+    display: none;
+}
+
+.authentification_submit,PasswordRecovery_submit{
+   background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+	width: 80%;
+    margin-left: 10%;
+
+}
+
+
+
+
+a.forgot_password{
+    margin-left: 10%;
+    font-size: 12px;
+}
+
+
+a.registration{
+    font-size: 15px;
+    margin-bottom: 200px;
+    
+    opacity: .8;
+}
+
+a.registration:hover{
+    opacity: 1;
+    text-decoration-line: none;
+}
+
+
+
+form div span.glyphicon-eye-open{
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 340px;
+    font-size: 18px;
+    color: #333;
+    opacity: .7;
+    
+}
+
+form div span.glyphicon-eye-open:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+form div span.glyphicon-eye-close{
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 340px;
+    font-size: 18px;
+    color: #333;
+    opacity: .7;
+    
+}
+
+form div span.glyphicon-eye-close:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.tooltip-inner{
+    width: 200px;
+    
+}
+
+
+form div span.emailsent{
+    font-size: 13px;
+    color :red;
+    display: none;
+    
+}
+
+.forgotpassword_msg_guide{
+    
+}
+
+
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+
+.registration_error_msg ,.registration_error_msg:hover{
+    margin-left: 10%;
+    font-size: 12px;
+    color:red;
+    cursor: pointer;
+    display: none;
+}
+
+.login_error_msg{
+	color:red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: -50px;
+    position: relative;
+    visibility: hidden;
+    
+    
+
+}

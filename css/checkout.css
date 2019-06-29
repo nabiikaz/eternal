@@ -1,0 +1,152 @@
+
+.checkout_panel{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: -20px;
+}
+
+.checkout_panel .panel-heading{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.checkout_date,.Confirm_checkout{
+  height: 40px;
+}
+
+.purchase_order{
+    margin-bottom: 0px;
+}
+
+.download_pdf,.Confirm_checkout_pdf,.download_pdf,.remove_purchase{
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #286090;
+    cursor: pointer;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   margin-top: -2px;
+   
+    -webkit-box-shadow: 0px 1px 11px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 11px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 11px -2px rgba(0,0,0,0.75);
+
+}
+
+
+.purchase_order_item{
+    width: 96%;
+    margin-left: 2%;
+    height: 30px;
+    padding-top: 3px;
+}
+
+
+.payment_confirmed{
+    background-color: #28a745!important;
+    color: white;
+}
+.payment_not_received{
+    background-color: #dc3545!important;
+    color: white;
+}
+
+.purchase_order_item_name{
+    font-weight: bold;
+}
+
+.purchase_order_item_quantity{
+    height: 18px;
+    margin-left: 5px;
+    display: none;
+}
+
+#NOSIZE{
+    display: block;
+}
+
+.purchase_order_item_price{
+    color: #dc3545;
+}
+.purchase_order_item_price i b{
+    text-decoration: underline;
+    
+}
+
+
+.purchase_order_item .col-lg-6{
+    padding-left: 90px;
+}
+
+.purchase_order_item_size{
+    width: auto;
+}
+
+#confirm_payment_modal{
+   margin-top: 180px;
+   border-radius: 3px;
+}
+
+.confirm_payment_modal_header {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-top: -5px;
+    
+}
+
+#confirm_payment_modal_title{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;    
+}
+
+.alert{
+    position: absolute;
+    z-index: 10;
+    padding: 10px;
+    font-size: 12px;
+    display: none;
+
+    
+}
+.payment_confirmed_alert{
+   
+}
+.payment_frosen{
+    
+}
+
+.account_password{
+    height: 30px;
+    margin-top: 10px;
+    width: 280px;
+    float: left;
+}
+
+.confirm_payment_modal_done{
+    height: 30px;
+    float: right;
+    padding: 0px;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+
+
+#add_payment_method_modal{
+    
+}
+
+.add_payment_method_modal_done{
+    width: 100%;
+}

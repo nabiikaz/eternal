@@ -1,0 +1,68 @@
+.filter_title{
+	padding: 0px;
+	margin: 0px;
+	padding-left:  10px;
+
+}
+
+.filters_fixed{
+	border:1px solid red;
+	
+	height: 150px;
+}
+
+
+
+/*//fadeout show like slide show///*/
+.fadeshow{
+	border: 1px solid black;
+	width: 73%;
+	margin-left: 2%;
+	height: 430px;
+}
+
+
+
+.shop_by{
+	width: 23%;
+	margin-right: 5px;
+
+}
+
+.shop_by  h5{
+}
+
+.shop_by .col-xs-12{
+	height: 125px;
+	margin-bottom: 0px;
+	
+}
+
+
+.shop_by .col-xs-12 img{
+	
+
+	margin-left:  -15px;
+}
+/*.shop_by .col-xs-12 h3{
+	float: left;
+	margin-right: 20px;
+	color: white;
+	margin-top: 44px;
+	margin-left: 40px;
+
+
+}*/
+
+.filter_items{
+	height: 50px;
+	width: 75%;
+	position: absolute;
+	margin-top: -25px;
+	padding: 5px;
+	margin-left: 10px;
+	
+}
+
+
+
